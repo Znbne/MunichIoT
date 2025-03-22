@@ -1,0 +1,13 @@
+There are 2 sets of service load in this directory:
+1. Services-{0-35}-0.csv
+These files indicate the service requests for default routes scenario generated from all vehicles.
+Each file shows the demand over a 5-minute time interval. As you can see in the traces, when a vehicle is not in the test area the demand is zero. 
+As an instance, Services-0-0.csv identifies the service requests for the time interval 0s to 300second in default scenario. Services-1-0.csv identifies the service requests for the time interval 300second to 600second and so on.
+
+ 
+2. Services-{0-35}-1.csv
+These files indicate the service requests for optimized routes scenario generated from all vehicles. 
+Similar to the other scenario, here each file shows the demand over a 5-minute time interval. When a vehicle is not in the test area the demand is zero. 
+As an instance, Services-0-1.csv identifies the service requests for the time interval 0s to 300second in optimized scenario. Services-1-1.csv identifies the service requests for the time interval 300second to 600second and so on.
+
+Notes: Service-id represents the id of the vehicle generating the demand. Over the first 5-min time period the demand in the area is zero.

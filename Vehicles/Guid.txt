@@ -1,0 +1,9 @@
+There are 2 directories in this directory:
+
+1. Optimized: The directory contains 9,788 files representing vehicles traveling in an optimized route scenario. 
+2. Baseline: The directory contains 9,788 files representing vehicles traveling in a default route scenario. 
+
+
+Each file in the mentioned directories details the trajectory of a single vehicle, recording its location every second. The format is as follows:
+Timestamp, vehicle_angle, vehicle_x, vehicle_y, vehicle_speed, vehicle_id, connecting_access_point, distance_to_access_point
+

@@ -1,0 +1,6 @@
+There are 2 traces in the folder:
+1. AP_Veh0.csv
+Represents the connections between vehicles and access points (edge servers) during the default scenario: there are 10112 vehicles traveling over 10800 seconds in this scenario. If a vehicle is not in the test area or is not connected to any access point the value is -1 (note that the id of access points is in the range of [0,108]). A vehicle may keep its connection with the same access point for some time, in this case the access point id is repeated during the connection time.
+
+2. AP_Veh1.csv
+Represents the connections between vehicles and access points (edge servers) during the optimized scenario: there are 9788 vehicles traveling over 10800 seconds in this scenario. 
